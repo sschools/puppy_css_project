@@ -13,7 +13,7 @@ colors:
     dark blue - #046c97
 */
 html {
-  background-color: #cccccc;
+  background-color: #046c97;
 }
 
 body {
@@ -127,10 +127,10 @@ textarea {
 
 #submit_button {
   background-color: #1fabe5;
-  padding: 20px;
+  padding: 15px 20px;
   color: #ffffff;
   font-weight: bold;
-  font-size: 150%;
+  font-size: 120%;
   text-transform: uppercase;
   border-radius: 5px;
   border-style: none;
