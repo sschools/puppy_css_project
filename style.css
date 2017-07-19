@@ -12,3 +12,35 @@ colors:
     blue - #1fabe5
     dark blue - #046c97
 */
+html {
+  background-color: #046c97;
+}
+
+body {
+  margin:10px 30px 20px 30px;
+  background-color: #ffffff;
+  border: 1px solid #ffd24a;
+  width:70%;
+
+}
+
+header {
+  background-color: #ff8523;
+  padding: 10px;
+}
+
+.main_navigation {
+  margin:10px;
+}
+
+.main_navigation > a {
+  color:white;
+  border-radius:3px;
+  border: 1px solid white;
+  text-decoration:none;
+  font-family: Helvetica, Arial, sans-serif;
+  margin-left: 1px;
+  padding: 8px 30px;
+  font-size:80%;
+  font-weight:bold;
+}
