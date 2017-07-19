@@ -105,7 +105,7 @@ form {
 }
 
 .name {
-  height: 50px;
+  height: 10%;
   background-color: #ff8523;
   padding: 10px;
   border-radius: 5px;
@@ -113,13 +113,16 @@ form {
 }
 
 label {
+  display: inline-block;
   font-weight: bold;
-  padding: 10px;
-  margin: 30px 10px;
+  padding: 8px;
+  margin: 10px;
 }
 
 textarea {
   border: 1px solid #1fabe5;
+  padding: 5px;
+  margin: 10px;
 }
 
 #submit_button {
@@ -131,4 +134,14 @@ textarea {
   text-transform: uppercase;
   border-radius: 5px;
   border-style: none;
+  margin: 10px;
+}
+
+#city {
+  border-color: #cccccc;
+}
+
+#first_name,#last_name {
+  height: 30px;
+  width: 20%;
 }
